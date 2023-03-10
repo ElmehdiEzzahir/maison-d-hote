@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+      <Connection code="new Color(0.1f,0.1f,0.1f,0.7f)" type="code"/>
+    </Property>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[420, 150]"/>
+    </Property>
+    <Property name="undecorated" type="boolean" value="true"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1450, 750]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="formComponentShown"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-18,0,0,5,-86"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="Unusedbutton4">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Check in and Check out"/>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+        <Property name="defaultCapable" type="boolean" value="false"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="focusPainted" type="boolean" value="false"/>
+        <Property name="focusable" type="boolean" value="false"/>
+        <Property name="requestFocusEnabled" type="boolean" value="false"/>
+        <Property name="rolloverEnabled" type="boolean" value="false"/>
+        <Property name="selected" type="boolean" value="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Unusedbutton4ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="10" width="1430" height="150"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="Checkinbutton">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Check in"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CheckinbuttonActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1260" y="480" width="150" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CIN"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="610" y="272" width="190" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cinin">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="780" y="268" width="210" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Full name"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="610" y="332" width="130" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fnin">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="780" y="328" width="210" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nationality"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="610" y="402" width="190" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="natbox">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="238">
+            <StringItem index="0" value="Afghanistan"/>
+            <StringItem index="1" value="Albania"/>
+            <StringItem index="2" value="Algeria"/>
+            <StringItem index="3" value="American Samoa"/>
+            <StringItem index="4" value="Andorra"/>
+            <StringItem index="5" value="Angola"/>
+            <StringItem index="6" value="Anguilla"/>
+            <StringItem index="7" value="Antarctica"/>
+            <StringItem index="8" value="Antigua and Barbuda"/>
+            <StringItem index="9" value="Argentina"/>
+            <StringItem index="10" value="Armenia"/>
+            <StringItem index="11" value="Aruba"/>
+            <StringItem index="12" value="Australia"/>
+            <StringItem index="13" value="Austria"/>
+            <StringItem index="14" value="Azerbaijan"/>
+            <StringItem index="15" value="Bahamas"/>
+            <StringItem index="16" value="Bahrain"/>
+            <StringItem index="17" value="Bangladesh"/>
+            <StringItem index="18" value="Barbados"/>
+            <StringItem index="19" value="Belarus"/>
+            <StringItem index="20" value="Belgium"/>
+            <StringItem index="21" value="Belize"/>
+            <StringItem index="22" value="Benin"/>
+            <StringItem index="23" value="Bermuda"/>
+            <StringItem index="24" value="Bhutan"/>
+            <StringItem index="25" value="Bolivia"/>
+            <StringItem index="26" value="Bosnia and Herzegowina"/>
+            <StringItem index="27" value="Botswana"/>
+            <StringItem index="28" value="Bouvet Island"/>
+            <StringItem index="29" value="Brazil"/>
+            <StringItem index="30" value="British Indian Ocean Territory"/>
+            <StringItem index="31" value="Brunei Darussalam"/>
+            <StringItem index="32" value="Bulgaria"/>
+            <StringItem index="33" value="Burkina Faso"/>
+            <StringItem index="34" value="Burundi"/>
+            <StringItem index="35" value="Cambodia"/>
+            <StringItem index="36" value="Cameroon"/>
+            <StringItem index="37" value="Canada"/>
+            <StringItem index="38" value="Cape Verde"/>
+            <StringItem index="39" value="Cayman Islands"/>
+            <StringItem index="40" value="Central African Republic"/>
+            <StringItem index="41" value="Chad"/>
+            <StringItem index="42" value="Chile"/>
+            <StringItem index="43" value="China"/>
+            <StringItem index="44" value="Christmas Island"/>
+            <StringItem index="45" value="Cocos (Keeling) Islands"/>
+            <StringItem index="46" value="Colombia"/>
+            <StringItem index="47" value="Comoros"/>
+            <StringItem index="48" value="the Democratic Republic of the Congo"/>
+            <StringItem index="49" value="Cook Islands"/>
+            <StringItem index="50" value="Costa Rica"/>
+            <StringItem index="51" value="Cote d&apos;Ivoire"/>
+            <StringItem index="52" value="Croatia (Hrvatska)"/>
+            <StringItem index="53" value="Cuba"/>
+            <StringItem index="54" value="Cyprus"/>
+            <StringItem index="55" value="Czech Republic"/>
+            <StringItem index="56" value="Denmark"/>
+            <StringItem index="57" value="Djibouti"/>
+            <StringItem index="58" value="Dominica"/>
+            <StringItem index="59" value="Dominican Republic"/>
+            <StringItem index="60" value="East Timor"/>
+            <StringItem index="61" value="Ecuador"/>
+            <StringItem index="62" value="Egypt"/>
+            <StringItem index="63" value="El Salvador"/>
+            <StringItem index="64" value="Equatorial Guinea"/>
+            <StringItem index="65" value="Eritrea"/>
+            <StringItem index="66" value="Estonia"/>
+            <StringItem index="67" value="Ethiopia"/>
+            <StringItem index="68" value="Falkland Islands (Malvinas)"/>
+            <StringItem index="69" value="Faroe Islands"/>
+            <StringItem index="70" value="Fiji"/>
+            <StringItem index="71" value="Finland"/>
+            <StringItem index="72" value="France"/>
+            <StringItem index="73" value="France Metropolitan"/>
+            <StringItem index="74" value="French Guiana"/>
+            <StringItem index="75" value="French Polynesia"/>
+            <StringItem index="76" value="French Southern Territories"/>
+            <StringItem index="77" value="Gabon"/>
+            <StringItem index="78" value="Gambia"/>
+            <StringItem index="79" value="Georgia"/>
+            <StringItem index="80" value="Germany"/>
+            <StringItem index="81" value="Ghana"/>
+            <StringItem index="82" value="Gibraltar"/>
+            <StringItem index="83" value="Greece"/>
+            <StringItem index="84" value="Greenland"/>
+            <StringItem index="85" value="Grenada"/>
+            <StringItem index="86" value="Guadeloupe"/>
+            <StringItem index="87" value="Guam"/>
+            <StringItem index="88" value="Guatemala"/>
+            <StringItem index="89" value="Guinea"/>
+            <StringItem index="90" value="Guinea-Bissau"/>
+            <StringItem index="91" value="Guyana"/>
+            <StringItem index="92" value="Haiti"/>
+            <StringItem index="93" value="Heard and Mc Donald Islands"/>
+            <StringItem index="94" value="Holy See (Vatican City State)"/>
+            <StringItem index="95" value="Honduras"/>
+            <StringItem index="96" value="Hong Kong"/>
+            <StringItem index="97" value="Hungary"/>
+            <StringItem index="98" value="Iceland"/>
+            <StringItem index="99" value="India"/>
+            <StringItem index="100" value="Indonesia"/>
+            <StringItem index="101" value="Iran (Islamic Republic of)"/>
+            <StringItem index="102" value="Iraq"/>
+            <StringItem index="103" value="Ireland"/>
+            <StringItem index="104" value="Italy"/>
+            <StringItem index="105" value="Jamaica"/>
+            <StringItem index="106" value="Japan"/>
+            <StringItem index="107" value="Jordan"/>
+            <StringItem index="108" value="Kazakhstan"/>
+            <StringItem index="109" value="Kenya"/>
+            <StringItem index="110" value="Kiribati"/>
+            <StringItem index="111" value="Korea, Democratic People&apos;s Republic of"/>
+            <StringItem index="112" value="Korea, Republic of"/>
+            <StringItem index="113" value="Kuwait"/>
+            <StringItem index="114" value="Kyrgyzstan"/>
+            <StringItem index="115" value="Lao, People&apos;s Democratic Republic"/>
+            <StringItem index="116" value="Latvia"/>
+            <StringItem index="117" value="Lebanon"/>
+            <StringItem index="118" value="Lesotho"/>
+            <StringItem index="119" value="Liberia"/>
+            <StringItem index="120" value="Libyan Arab Jamahiriya"/>
+            <StringItem index="121" value="Liechtenstein"/>
+            <StringItem index="122" value="Lithuania"/>
+            <StringItem index="123" value="Luxembourg"/>
+            <StringItem index="124" value="Macau"/>
+            <StringItem index="125" value="Macedonia, The Former Yugoslav Republic of"/>
+            <StringItem index="126" value="Madagascar"/>
+            <StringItem index="127" value="Malawi"/>
+            <StringItem index="128" value="Malaysia"/>
+            <StringItem index="129" value="Maldives"/>
+            <StringItem index="130" value="Mali"/>
+            <StringItem index="131" value="Malta"/>
+            <StringItem index="132" value="Marshall Islands"/>
+            <StringItem index="133" value="Martinique"/>
+            <StringItem index="134" value="Mauritania"/>
+            <StringItem index="135" value="Mauritius"/>
+            <StringItem index="136" value="Mayotte"/>
+            <StringItem index="137" value="Mexico"/>
+            <StringItem index="138" value="Micronesia, Federated States of"/>
+            <StringItem index="139" value="Moldova, Republic of"/>
+            <StringItem index="140" value="Monaco"/>
+            <StringItem index="141" value="Mongolia"/>
+            <StringItem index="142" value="Montserrat"/>
+            <StringItem index="143" value="Morocco"/>
+            <StringItem index="144" value="Mozambique"/>
+            <StringItem index="145" value="Myanmar"/>
+            <StringItem index="146" value="Namibia"/>
+            <StringItem index="147" value="Nauru"/>
+            <StringItem index="148" value="Nepal"/>
+            <StringItem index="149" value="Netherlands"/>
+            <StringItem index="150" value="Netherlands Antilles"/>
+            <StringItem index="151" value="New Caledonia"/>
+            <StringItem index="152" value="New Zealand"/>
+            <StringItem index="153" value="Nicaragua"/>
+            <StringItem index="154" value="Niger"/>
+            <StringItem index="155" value="Nigeria"/>
+            <StringItem index="156" value="Niue"/>
+            <StringItem index="157" value="Norfolk Island"/>
+            <StringItem index="158" value="Northern Mariana Islands"/>
+            <StringItem index="159" value="Norway"/>
+            <StringItem index="160" value="Oman"/>
+            <StringItem index="161" value="Palestine"/>
+            <StringItem index="162" value="Pakistan"/>
+            <StringItem index="163" value="Palau"/>
+            <StringItem index="164" value="Panama"/>
+            <StringItem index="165" value="Papua New Guinea"/>
+            <StringItem index="166" value="Paraguay"/>
+            <StringItem index="167" value="Peru"/>
+            <StringItem index="168" value="Philippines"/>
+            <StringItem index="169" value="Pitcairn"/>
+            <StringItem index="170" value="Poland"/>
+            <StringItem index="171" value="Portugal"/>
+            <StringItem index="172" value="Puerto Rico"/>
+            <StringItem index="173" value="Qatar"/>
+            <StringItem index="174" value="Reunion"/>
+            <StringItem index="175" value="Romania"/>
+            <StringItem index="176" value="Russian Federation"/>
+            <StringItem index="177" value="Rwanda"/>
+            <StringItem index="178" value="Saint Kitts and Nevis"/>
+            <StringItem index="179" value="Saint Lucia"/>
+            <StringItem index="180" value="Saint Vincent and the Grenadines"/>
+            <StringItem index="181" value="Samoa"/>
+            <StringItem index="182" value="San Marino"/>
+            <StringItem index="183" value="Sao Tome and Principe"/>
+            <StringItem index="184" value="Saudi Arabia"/>
+            <StringItem index="185" value="Senegal"/>
+            <StringItem index="186" value="Seychelles"/>
+            <StringItem index="187" value="Sierra Leone"/>
+            <StringItem index="188" value="Singapore"/>
+            <StringItem index="189" value="Slovakia (Slovak Republic)"/>
+            <StringItem index="190" value="Slovenia"/>
+            <StringItem index="191" value="Solomon Islands"/>
+            <StringItem index="192" value="Somalia"/>
+            <StringItem index="193" value="South Africa"/>
+            <StringItem index="194" value="South Georgia and the South Sandwich Islands"/>
+            <StringItem index="195" value="Spain"/>
+            <StringItem index="196" value="Sri Lanka"/>
+            <StringItem index="197" value="St. Helena"/>
+            <StringItem index="198" value="St. Pierre and Miquelon"/>
+            <StringItem index="199" value="Sudan"/>
+            <StringItem index="200" value="Suriname"/>
+            <StringItem index="201" value="Svalbard and Jan Mayen Islands"/>
+            <StringItem index="202" value="Swaziland"/>
+            <StringItem index="203" value="Sweden"/>
+            <StringItem index="204" value="Switzerland"/>
+            <StringItem index="205" value="Syrian Arab Republic"/>
+            <StringItem index="206" value="Taiwan, Province of China"/>
+            <StringItem index="207" value="Tajikistan"/>
+            <StringItem index="208" value="Tanzania, United Republic of"/>
+            <StringItem index="209" value="Thailand"/>
+            <StringItem index="210" value="Togo"/>
+            <StringItem index="211" value="Tokelau"/>
+            <StringItem index="212" value="Tonga"/>
+            <StringItem index="213" value="Trinidad and Tobago"/>
+            <StringItem index="214" value="Tunisia"/>
+            <StringItem index="215" value="Turke"/>
+            <StringItem index="216" value="Turkmenistan"/>
+            <StringItem index="217" value="Turks and Caicos Islands"/>
+            <StringItem index="218" value="Tuvalu"/>
+            <StringItem index="219" value="Uganda"/>
+            <StringItem index="220" value="Ukraine"/>
+            <StringItem index="221" value="United Arab Emirates"/>
+            <StringItem index="222" value="United Kingdom"/>
+            <StringItem index="223" value="United States"/>
+            <StringItem index="224" value="United States Minor Outlying Islands"/>
+            <StringItem index="225" value="Uruguay"/>
+            <StringItem index="226" value="Uzbekistan"/>
+            <StringItem index="227" value="Vanuatu"/>
+            <StringItem index="228" value="Venezuela"/>
+            <StringItem index="229" value="Vietnam"/>
+            <StringItem index="230" value="Virgin Islands (British)"/>
+            <StringItem index="231" value="Virgin Islands (U.S.)"/>
+            <StringItem index="232" value="Wallis and Futuna Islands"/>
+            <StringItem index="233" value="Western Sahara"/>
+            <StringItem index="234" value="Yemen"/>
+            <StringItem index="235" value="Yugoslavia"/>
+            <StringItem index="236" value="Zambia"/>
+            <StringItem index="237" value="Zimbabwe"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="natboxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="780" y="398" width="210" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Phone Number"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1020" y="272" width="210" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="phonein">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="phoneinActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1200" y="268" width="210" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Booked for"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1020" y="332" width="210" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bookedin">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1200" y="328" width="210" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Room Number"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1020" y="402" width="210" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Roomnumberbox">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RoomnumberboxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1200" y="398" width="210" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="180" width="560" height="-1"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="chtable">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="0">
+                <Column editable="false" title="ID" type="java.lang.Object"/>
+                <Column editable="false" title="CIN" type="java.lang.Object"/>
+                <Column editable="false" title="Full Name" type="java.lang.Object"/>
+                <Column editable="false" title="Room NUmber" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="150" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="choutbt">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Check Out"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="choutbtActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="450" y="630" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
